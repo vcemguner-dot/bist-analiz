@@ -332,26 +332,34 @@ with t5:
         st.info("Bot durumu bulunamadi. GitHub Actions'ta botu en az bir kez "
                 "calistirdiginda burada canli olarak gorunecek.")
     else:
-        baslangic = float(ayar.get("baslangic_nakit", 100_000))
+        gercek_baslangic = float(ayar.get("baslangic_nakit", 100_000))
+        baslangic = st.number_input(
+            "Baslangic bakiyesi (TL) — gosterimi bu degere gore olceklendirir",
+            min_value=1_000.0, value=gercek_baslangic, step=1_000.0, format="%.0f",
+            help="Botun gercek bakiyesini degistirmez; 'bu bakiyeyle baslasaydim "
+                 "ne olurdu' sorusunu anlik gosterir. Getiriler yuzde bazli oldugu "
+                 "icin oranlar ayni kalir, sadece TL tutarlari olceklenir.")
+        olcek = baslangic / gercek_baslangic
         pozlar = cuzdan.get("pozisyonlar", {})
         fiyat = bot_fiyat(list(pozlar.keys()))
 
+        nakit = cuzdan.get("nakit", 0)
         hisse_deger = sum(p["lot"] * (fiyat.get(k) or p["maliyet"])
                           for k, p in pozlar.items())
-        toplam = cuzdan.get("nakit", 0) + hisse_deger
-        getiri = (toplam / baslangic - 1) * 100
+        toplam_gercek = nakit + hisse_deger
+        getiri = (toplam_gercek / gercek_baslangic - 1) * 100
 
         m = st.columns(4)
         m[0].metric("Baslangic bakiye", f"{baslangic:,.0f} TL")
-        m[1].metric("Guncel deger", f"{toplam:,.0f} TL", f"%{getiri:+.2f}")
-        m[2].metric("Nakit", f"{cuzdan.get('nakit',0):,.0f} TL")
+        m[1].metric("Guncel deger", f"{toplam_gercek*olcek:,.0f} TL", f"%{getiri:+.2f}")
+        m[2].metric("Nakit", f"{nakit*olcek:,.0f} TL")
         m[3].metric("Acik pozisyon", f"{len(pozlar)}")
 
         # Sermaye egrisi
         if hist:
             st.markdown("##### Portfoy degeri (zaman)")
             hx = [h["tarih"] for h in hist]
-            hy = [h["deger"] for h in hist]
+            hy = [h["deger"] * olcek for h in hist]
             fig = go.Figure()
             fig.add_trace(go.Scatter(x=hx, y=hy, name="Portfoy",
                                      line=dict(color=PRIMARY, width=2),
@@ -368,21 +376,25 @@ with t5:
             for r in islemler:
                 if r.get("aksiyon") == "AL":
                     son_al[r["kod"]] = r.get("sebep", "")
-            sat = []
+            sat, donut_lbl, donut_val = [], [], []
             for k, p in pozlar.items():
                 f = fiyat.get(k) or p["maliyet"]
+                dv = p["lot"] * f
                 sat.append({"Kod": k, "Lot": p["lot"], "Maliyet": p["maliyet"],
-                            "Guncel": round(f, 2), "Deger": round(p["lot"] * f),
+                            "Guncel": round(f, 2),
+                            "Agirlik %": round(dv / toplam_gercek * 100, 1),
                             "K/Z %": round((f / p["maliyet"] - 1) * 100, 1),
                             "Neden alindi": son_al.get(k, "-")})
+                donut_lbl.append(k)
+                donut_val.append(dv)
+            if nakit > 0:
+                donut_lbl.append("Nakit")
+                donut_val.append(nakit)
             st.dataframe(pd.DataFrame(sat), use_container_width=True, hide_index=True)
 
             c1, c2 = st.columns([1, 1])
             with c1:
-                pie = go.Figure(go.Pie(
-                    labels=[s["Kod"] for s in sat] + (["Nakit"] if cuzdan["nakit"] > 0 else []),
-                    values=[s["Deger"] for s in sat] + ([cuzdan["nakit"]] if cuzdan["nakit"] > 0 else []),
-                    hole=0.5))
+                pie = go.Figure(go.Pie(labels=donut_lbl, values=donut_val, hole=0.5))
                 pie.update_layout(title="Dagilim")
                 st.plotly_chart(plot_stil(pie, 300), use_container_width=True)
         else:
