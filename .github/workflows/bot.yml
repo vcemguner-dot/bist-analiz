@@ -1,0 +1,38 @@
+name: BIST Paper-Trading Bot
+
+on:
+  schedule:
+    # GitHub cron UTC calisir. BIST 10:00-18:00 TRT = 07:00-15:00 UTC.
+    # Her saatin basinda, Pazartesi-Cuma.
+    - cron: "0 7-15 * * 1-5"
+  workflow_dispatch:        # Actions sekmesinden elle de tetiklenebilir
+
+permissions:
+  contents: write           # bot durumunu repo'ya geri yazabilmek icin
+
+jobs:
+  trade:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Paketleri kur
+        run: pip install -r bot/requirements.txt
+
+      - name: Islem turu
+        run: python bot/bot.py
+
+      - name: Gun sonu raporu
+        run: python bot/gunsonu.py
+
+      - name: Durumu repo'ya yaz
+        run: |
+          git config user.name "bist-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add bot/durum
+          git diff --staged --quiet || git commit -m "bot: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
