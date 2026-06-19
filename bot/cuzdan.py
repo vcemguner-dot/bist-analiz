@@ -11,7 +11,19 @@ CUZDAN_DOSYA = os.path.join(DURUM, "cuzdan.json")
 GUNLUK_DOSYA = os.path.join(DURUM, "islemler.json")
 DEGER_DOSYA = os.path.join(DURUM, "gunluk_deger.json")
 RAPOR_DIR = os.path.join(DURUM, "raporlar")
-BASLANGIC_NAKIT = 100_000
+AYAR_DOSYA = os.path.join(DURUM, "ayarlar.json")
+
+
+def _baslangic_nakit():
+    """Baslangic bakiyesini ayarlar.json'dan okur (yoksa 100.000)."""
+    try:
+        with open(AYAR_DOSYA, encoding="utf-8") as f:
+            return float(json.load(f).get("baslangic_nakit", 100_000))
+    except Exception:
+        return 100_000
+
+
+BASLANGIC_NAKIT = _baslangic_nakit()
 
 
 def _hazirla():
