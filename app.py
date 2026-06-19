@@ -3,6 +3,9 @@ BIST Analiz — interaktif web uygulamasi (Streamlit + Plotly)
 Calistir:  streamlit run app.py
 """
 
+import json
+import urllib.request
+
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
@@ -91,7 +94,7 @@ except Exception as e:
     st.error(f"Veri alinamadi: {e}")
     st.stop()
 
-t1, t2, t3, t4 = st.tabs(["  Genel  ", "  DCF  ", "  Portfoy  ", "  Backtest  "])
+t1, t2, t3, t4, t5 = st.tabs(["  Genel  ", "  DCF  ", "  Portfoy  ", "  Backtest  ", "  Bot  "])
 
 # ================= GENEL =================
 with t1:
@@ -275,3 +278,135 @@ with t4:
                         unsafe_allow_html=True)
         except Exception as e:
             st.error(f"Backtest hatasi: {e}")
+
+
+# ================= BOT =================
+BOT_RAW = "https://raw.githubusercontent.com/vcemguner-dot/bist-analiz/main/bot/durum"
+
+
+@st.cache_data(ttl=120, show_spinner=False)
+def bot_json(dosya):
+    try:
+        with urllib.request.urlopen(f"{BOT_RAW}/{dosya}", timeout=10) as r:
+            return json.loads(r.read().decode("utf-8"))
+    except Exception:
+        return None
+
+
+@st.cache_data(ttl=120, show_spinner=False)
+def bot_metin(dosya):
+    try:
+        with urllib.request.urlopen(f"{BOT_RAW}/{dosya}", timeout=10) as r:
+            return r.read().decode("utf-8")
+    except Exception:
+        return None
+
+
+@st.cache_data(ttl=300, show_spinner=False)
+def bot_fiyat(kodlar):
+    import yfinance as yf
+    out = {}
+    for k in kodlar:
+        try:
+            out[k] = float(yf.Ticker(k + ".IS").history(period="5d")["Close"].iloc[-1])
+        except Exception:
+            out[k] = None
+    return out
+
+
+with t5:
+    ust = st.columns([4, 1])
+    ust[0].markdown("#### Otomatik Paper-Trading Bot")
+    if ust[1].button("Yenile"):
+        st.cache_data.clear()
+        st.rerun()
+    st.caption("BIST saatlerinde bulutta calisan botun canli durumu "
+               "(GitHub uzerinden okunur). Sanal para — yatirim tavsiyesi degildir.")
+
+    cuzdan = bot_json("cuzdan.json")
+    ayar = bot_json("ayarlar.json") or {}
+    hist = bot_json("gunluk_deger.json") or []
+    islemler = bot_json("islemler.json") or []
+
+    if not cuzdan:
+        st.info("Bot durumu bulunamadi. GitHub Actions'ta botu en az bir kez "
+                "calistirdiginda burada canli olarak gorunecek.")
+    else:
+        baslangic = float(ayar.get("baslangic_nakit", 100_000))
+        pozlar = cuzdan.get("pozisyonlar", {})
+        fiyat = bot_fiyat(list(pozlar.keys()))
+
+        hisse_deger = sum(p["lot"] * (fiyat.get(k) or p["maliyet"])
+                          for k, p in pozlar.items())
+        toplam = cuzdan.get("nakit", 0) + hisse_deger
+        getiri = (toplam / baslangic - 1) * 100
+
+        m = st.columns(4)
+        m[0].metric("Baslangic bakiye", f"{baslangic:,.0f} TL")
+        m[1].metric("Guncel deger", f"{toplam:,.0f} TL", f"%{getiri:+.2f}")
+        m[2].metric("Nakit", f"{cuzdan.get('nakit',0):,.0f} TL")
+        m[3].metric("Acik pozisyon", f"{len(pozlar)}")
+
+        # Sermaye egrisi
+        if hist:
+            st.markdown("##### Portfoy degeri (zaman)")
+            hx = [h["tarih"] for h in hist]
+            hy = [h["deger"] for h in hist]
+            fig = go.Figure()
+            fig.add_trace(go.Scatter(x=hx, y=hy, name="Portfoy",
+                                     line=dict(color=PRIMARY, width=2),
+                                     fill="tozeroy", fillcolor="rgba(15,110,86,0.08)"))
+            fig.add_hline(y=baslangic, line_dash="dash", line_color=MUTED,
+                          annotation_text="baslangic")
+            st.plotly_chart(plot_stil(fig, 320), use_container_width=True)
+
+        # Acik pozisyonlar + neden
+        st.markdown("##### Acik pozisyonlar — neden acildi?")
+        if pozlar:
+            # her hisse icin en son AL gerekcesi
+            son_al = {}
+            for r in islemler:
+                if r.get("aksiyon") == "AL":
+                    son_al[r["kod"]] = r.get("sebep", "")
+            sat = []
+            for k, p in pozlar.items():
+                f = fiyat.get(k) or p["maliyet"]
+                sat.append({"Kod": k, "Lot": p["lot"], "Maliyet": p["maliyet"],
+                            "Guncel": round(f, 2), "Deger": round(p["lot"] * f),
+                            "K/Z %": round((f / p["maliyet"] - 1) * 100, 1),
+                            "Neden alindi": son_al.get(k, "-")})
+            st.dataframe(pd.DataFrame(sat), use_container_width=True, hide_index=True)
+
+            c1, c2 = st.columns([1, 1])
+            with c1:
+                pie = go.Figure(go.Pie(
+                    labels=[s["Kod"] for s in sat] + (["Nakit"] if cuzdan["nakit"] > 0 else []),
+                    values=[s["Deger"] for s in sat] + ([cuzdan["nakit"]] if cuzdan["nakit"] > 0 else []),
+                    hole=0.5))
+                pie.update_layout(title="Dagilim")
+                st.plotly_chart(plot_stil(pie, 300), use_container_width=True)
+        else:
+            st.write("Su an tamamen nakitte.")
+
+        # Islem gecmisi
+        st.markdown("##### Islem gecmisi")
+        if islemler:
+            log = pd.DataFrame(islemler[::-1])  # en yeni ustte
+            kolon = [c for c in ["zaman", "aksiyon", "kod", "lot", "fiyat", "sebep"]
+                     if c in log.columns]
+            st.dataframe(log[kolon].head(20), use_container_width=True, hide_index=True)
+        else:
+            st.write("Henuz islem yok.")
+
+        # Gun sonu raporu (ham)
+        rap = bot_metin("raporlar/son_rapor.md")
+        if rap:
+            with st.expander("Gun sonu raporu (tam metin)"):
+                st.markdown(rap)
+
+    with st.expander("Baslangic bakiyesini nasil degistiririm?"):
+        st.markdown(
+            "1. Repo'da **bot/durum/ayarlar.json** dosyasini ac, kalemle duzenle.\n"
+            "2. `baslangic_nakit` degerini istedigin tutara cevir, commit et.\n"
+            "3. Sifirdan baslamasi icin **bot/durum/cuzdan.json** dosyasini sil.\n"
+            "4. Actions'tan botu calistir — yeni bakiyeyle baslar.")
