@@ -38,5 +38,21 @@
     "lot": 85,
     "fiyat": 383.25,
     "sebep": "ilk 3'e girdi — DusukVol cok guclu (volatilite %34, z+1.2), Saglik ortalama (Borc/Ozk 1.02, z+0.3); skor +0.15"
+  },
+  {
+    "zaman": "2026-06-22 20:04",
+    "kod": "THYAO",
+    "aksiyon": "SAT",
+    "lot": 102,
+    "fiyat": 324.75,
+    "sebep": "ilk 3 disina dustu; gerceklesen K/Z %+0.1"
+  },
+  {
+    "zaman": "2026-06-22 20:04",
+    "kod": "ASELS",
+    "aksiyon": "AL",
+    "lot": 84,
+    "fiyat": 394.75,
+    "sebep": "ilk 3'e girdi — Trend cok guclu (200g'ye gore %36, z+1.4), RSI guclu (RSI 46, z+0.6); skor +0.15"
   }
 ]

@@ -1,10 +1,6 @@
 {
-  "nakit": 379.1505126953125,
+  "nakit": 344.6505126953125,
   "pozisyonlar": {
-    "THYAO": {
-      "lot": 102,
-      "maliyet": 324.5
-    },
     "EREGL": {
       "lot": 840,
       "maliyet": 39.64
@@ -12,6 +8,10 @@
     "BIMAS": {
       "lot": 85,
       "maliyet": 383.25
+    },
+    "ASELS": {
+      "lot": 84,
+      "maliyet": 394.75
     }
   }
 }
