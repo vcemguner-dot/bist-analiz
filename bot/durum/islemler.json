@@ -54,5 +54,37 @@
     "lot": 84,
     "fiyat": 394.75,
     "sebep": "ilk 3'e girdi — Trend cok guclu (200g'ye gore %36, z+1.4), RSI guclu (RSI 46, z+0.6); skor +0.15"
+  },
+  {
+    "zaman": "2026-06-23 16:17",
+    "kod": "BIMAS",
+    "aksiyon": "SAT",
+    "lot": 85,
+    "fiyat": 382.75,
+    "sebep": "ilk 3 disina dustu; gerceklesen K/Z %-0.1"
+  },
+  {
+    "zaman": "2026-06-23 16:17",
+    "kod": "ASELS",
+    "aksiyon": "SAT",
+    "lot": 84,
+    "fiyat": 392.0,
+    "sebep": "ilk 3 disina dustu; gerceklesen K/Z %-0.7"
+  },
+  {
+    "zaman": "2026-06-23 16:17",
+    "kod": "THYAO",
+    "aksiyon": "AL",
+    "lot": 101,
+    "fiyat": 325.0,
+    "sebep": "ilk 3'e girdi — Deger cok guclu (F/K 3.4, z+2.6), Kalite guclu (ROE %13, z+0.5); skor +0.51"
+  },
+  {
+    "zaman": "2026-06-23 16:17",
+    "kod": "TOASO",
+    "aksiyon": "AL",
+    "lot": 95,
+    "fiyat": 345.0,
+    "sebep": "ilk 3'e girdi — Trend guclu (200g'ye gore %29, z+0.9), Momentum guclu (%27, z+0.8); skor +0.18"
   }
 ]
