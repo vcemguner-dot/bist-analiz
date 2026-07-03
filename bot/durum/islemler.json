@@ -150,5 +150,21 @@
     "lot": 99,
     "fiyat": 305.0,
     "sebep": "ilk 3'e girdi — Momentum guclu (%21, z+0.8), Kalite guclu (ROE %14, z+0.7); skor +0.13"
+  },
+  {
+    "zaman": "2026-07-03 13:31",
+    "kod": "THYAO",
+    "aksiyon": "SAT",
+    "lot": 101,
+    "fiyat": 332.0,
+    "sebep": "ilk 3 disina dustu; gerceklesen K/Z %+2.2"
+  },
+  {
+    "zaman": "2026-07-03 13:31",
+    "kod": "BIMAS",
+    "aksiyon": "AL",
+    "lot": 94,
+    "fiyat": 358.75,
+    "sebep": "ilk 3'e girdi — RSI cok guclu (RSI 24, z+1.3), DusukVol guclu (volatilite %25, z+0.9); skor +0.06"
   }
 ]
