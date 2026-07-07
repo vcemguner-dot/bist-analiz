@@ -182,5 +182,21 @@
     "lot": 100,
     "fiyat": 334.0,
     "sebep": "ilk 3'e girdi — Deger cok guclu (F/K 3.5, z+2.6), DusukVol guclu (volatilite %28, z+0.6); skor +0.65"
+  },
+  {
+    "zaman": "2026-07-07 16:14",
+    "kod": "TOASO",
+    "aksiyon": "SAT",
+    "lot": 99,
+    "fiyat": 299.0,
+    "sebep": "ilk 3 disina dustu; gerceklesen K/Z %-2.0"
+  },
+  {
+    "zaman": "2026-07-07 16:14",
+    "kod": "BIMAS",
+    "aksiyon": "AL",
+    "lot": 79,
+    "fiyat": 374.25,
+    "sebep": "ilk 3'e girdi — DusukVol guclu (volatilite %26, z+0.8), Saglik ortalama (Borc/Ozk 1.02, z+0.3); skor +0.10"
   }
 ]
