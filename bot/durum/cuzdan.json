@@ -1,5 +1,5 @@
 {
-  "nakit": 286.4005126953125,
+  "nakit": 315.4005126953125,
   "pozisyonlar": {
     "EREGL": {
       "lot": 840,
@@ -9,9 +9,9 @@
       "lot": 100,
       "maliyet": 334.0
     },
-    "TOASO": {
-      "lot": 97,
-      "maliyet": 302.75
+    "BIMAS": {
+      "lot": 75,
+      "maliyet": 380.5
     }
   }
 }
