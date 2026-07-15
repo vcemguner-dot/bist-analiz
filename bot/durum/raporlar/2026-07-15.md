@@ -34,4 +34,4 @@
 - SISE: skor -0.34
 - ASELS: skor -0.47
 
-_Uretim: 2026-07-15 12:07 UTC · paper-trading, yatirim tavsiyesi degildir._
+_Uretim: 2026-07-15 17:50 UTC · paper-trading, yatirim tavsiyesi degildir._
