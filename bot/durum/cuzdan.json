@@ -1,5 +1,5 @@
 {
-  "nakit": 26.38116455078125,
+  "nakit": 309.1214904785156,
   "pozisyonlar": {
     "EREGL": {
       "lot": 840,
@@ -9,9 +9,9 @@
       "lot": 100,
       "maliyet": 334.0
     },
-    "SISE": {
-      "lot": 712,
-      "maliyet": 42.46
+    "BIMAS": {
+      "lot": 77,
+      "maliyet": 389.5
     }
   }
 }
