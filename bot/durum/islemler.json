@@ -454,5 +454,21 @@
     "lot": 773,
     "fiyat": 42.66,
     "sebep": "ilk 3'e girdi — Trend cok guclu (200g'ye gore %37, z+1.9), Momentum cok guclu (%16, z+1.7); skor +0.42"
+  },
+  {
+    "zaman": "2026-07-31 09:51",
+    "kod": "TUPRS",
+    "aksiyon": "SAT",
+    "lot": 113,
+    "fiyat": 298.0,
+    "sebep": "ilk 3 disina dustu; gerceklesen K/Z %+0.0"
+  },
+  {
+    "zaman": "2026-07-31 09:51",
+    "kod": "BIMAS",
+    "aksiyon": "AL",
+    "lot": 87,
+    "fiyat": 384.25,
+    "sebep": "ilk 3'e girdi — Trend guclu (200g'ye gore %15, z+0.7), Momentum guclu (%-1, z+0.7); skor +0.23"
   }
 ]
