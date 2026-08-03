@@ -502,5 +502,21 @@
     "lot": 772,
     "fiyat": 42.5,
     "sebep": "ilk 3'e girdi — Trend cok guclu (200g'ye gore %36, z+1.8), Momentum cok guclu (%14, z+1.7); skor +0.23"
+  },
+  {
+    "zaman": "2026-08-03 10:48",
+    "kod": "EREGL",
+    "aksiyon": "SAT",
+    "lot": 772,
+    "fiyat": 41.08,
+    "sebep": "ilk 3 disina dustu; gerceklesen K/Z %-3.3"
+  },
+  {
+    "zaman": "2026-08-03 10:48",
+    "kod": "TUPRS",
+    "aksiyon": "AL",
+    "lot": 107,
+    "fiyat": 294.75,
+    "sebep": "ilk 3'e girdi — Kalite cok guclu (ROE %27, z+2.0), Momentum cok guclu (%14, z+1.7); skor +1.00"
   }
 ]
