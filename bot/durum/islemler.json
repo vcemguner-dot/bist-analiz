@@ -550,5 +550,21 @@
     "lot": 113,
     "fiyat": 290.5,
     "sebep": "ilk 3'e girdi — Momentum cok guclu (%12, z+1.7), Trend cok guclu (200g'ye gore %28, z+1.5); skor +0.46"
+  },
+  {
+    "zaman": "2026-08-04 09:39",
+    "kod": "EREGL",
+    "aksiyon": "SAT",
+    "lot": 775,
+    "fiyat": 41.26,
+    "sebep": "ilk 3 disina dustu; gerceklesen K/Z %+0.7"
+  },
+  {
+    "zaman": "2026-08-04 09:39",
+    "kod": "BIMAS",
+    "aksiyon": "AL",
+    "lot": 84,
+    "fiyat": 382.25,
+    "sebep": "ilk 3'e girdi — Trend guclu (200g'ye gore %14, z+0.5), Momentum guclu (%-2, z+0.4); skor +0.13"
   }
 ]
