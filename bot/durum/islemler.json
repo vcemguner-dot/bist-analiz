@@ -726,5 +726,21 @@
     "lot": 79,
     "fiyat": 387.75,
     "sebep": "ilk 3'e girdi — Trend guclu (200g'ye gore %15, z+0.5), DusukVol guclu (volatilite %31, z+0.4); skor -0.02"
+  },
+  {
+    "zaman": "2026-08-10 11:49",
+    "kod": "TUPRS",
+    "aksiyon": "SAT",
+    "lot": 113,
+    "fiyat": 290.5,
+    "sebep": "ilk 3 disina dustu; gerceklesen K/Z %+0.0"
+  },
+  {
+    "zaman": "2026-08-10 11:49",
+    "kod": "MGROS",
+    "aksiyon": "AL",
+    "lot": 49,
+    "fiyat": 665.5,
+    "sebep": "ilk 3'e girdi — Momentum guclu (%-5, z+0.7), Trend guclu (200g'ye gore %9, z+0.5); skor +0.03"
   }
 ]
