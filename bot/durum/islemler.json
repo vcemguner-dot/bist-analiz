@@ -886,5 +886,21 @@
     "lot": 379,
     "fiyat": 79.0,
     "sebep": "ilk 3'e girdi — Kalite cok guclu (ROE %34, z+2.2), DusukVol guclu (volatilite %28, z+0.9); skor +0.19"
+  },
+  {
+    "zaman": "2026-08-11 16:09",
+    "kod": "FROTO",
+    "aksiyon": "SAT",
+    "lot": 379,
+    "fiyat": 78.85,
+    "sebep": "ilk 3 disina dustu; gerceklesen K/Z %-0.2"
+  },
+  {
+    "zaman": "2026-08-11 16:09",
+    "kod": "MGROS",
+    "aksiyon": "AL",
+    "lot": 47,
+    "fiyat": 630.0,
+    "sebep": "ilk 3'e girdi — Kalite cok guclu (ROE %33, z+2.1), DusukVol ortalama (volatilite %33, z+0.3); skor +0.20"
   }
 ]
