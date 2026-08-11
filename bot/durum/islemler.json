@@ -806,5 +806,21 @@
     "lot": 414,
     "fiyat": 77.4,
     "sebep": "ilk 3'e girdi — Kalite cok guclu (ROE %22, z+1.7), DusukVol cok guclu (volatilite %25, z+1.1); skor +0.15"
+  },
+  {
+    "zaman": "2026-08-11 08:13",
+    "kod": "FROTO",
+    "aksiyon": "SAT",
+    "lot": 414,
+    "fiyat": 76.15,
+    "sebep": "ilk 3 disina dustu; gerceklesen K/Z %-1.6"
+  },
+  {
+    "zaman": "2026-08-11 08:13",
+    "kod": "TOASO",
+    "aksiyon": "AL",
+    "lot": 121,
+    "fiyat": 258.75,
+    "sebep": "ilk 3'e girdi — Kalite cok guclu (ROE %41, z+1.7), RSI guclu (RSI 28, z+0.9); skor +0.25"
   }
 ]
