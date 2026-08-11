@@ -870,5 +870,21 @@
     "lot": 109,
     "fiyat": 300.5,
     "sebep": "ilk 3'e girdi — Deger cok guclu (F/K 3.0, z+2.5), Kalite guclu (ROE %13, z+0.7); skor +0.69"
+  },
+  {
+    "zaman": "2026-08-11 15:02",
+    "kod": "BIMAS",
+    "aksiyon": "SAT",
+    "lot": 79,
+    "fiyat": 378.5,
+    "sebep": "ilk 3 disina dustu; gerceklesen K/Z %+0.0"
+  },
+  {
+    "zaman": "2026-08-11 15:02",
+    "kod": "FROTO",
+    "aksiyon": "AL",
+    "lot": 379,
+    "fiyat": 79.0,
+    "sebep": "ilk 3'e girdi — Kalite cok guclu (ROE %34, z+2.2), DusukVol guclu (volatilite %28, z+0.9); skor +0.19"
   }
 ]
