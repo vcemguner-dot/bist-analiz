@@ -1,5 +1,5 @@
 {
-  "nakit": 6.845279693603516,
+  "nakit": 211.64465713500977,
   "pozisyonlar": {
     "TUPRS": {
       "lot": 94,
@@ -9,9 +9,9 @@
       "lot": 109,
       "maliyet": 300.5
     },
-    "SISE": {
-      "lot": 680,
-      "maliyet": 41.1
+    "BIMAS": {
+      "lot": 72,
+      "maliyet": 384.0
     }
   }
 }
