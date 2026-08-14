@@ -1,5 +1,5 @@
 {
-  "nakit": 32.01224899291992,
+  "nakit": 37.11221694946289,
   "pozisyonlar": {
     "TUPRS": {
       "lot": 94,
@@ -9,9 +9,9 @@
       "lot": 109,
       "maliyet": 300.5
     },
-    "EREGL": {
-      "lot": 736,
-      "maliyet": 37.58
+    "FROTO": {
+      "lot": 347,
+      "maliyet": 79.1
     }
   }
 }
