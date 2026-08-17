@@ -1,9 +1,9 @@
 # Bot Gun Sonu Raporu — 2026-08-17
 
 ## Ozet
-- **Portfoy degeri:** 95,096 TL
-- **Gunluk degisim:** %+0.35
-- **Toplam getiri:** %-4.90
+- **Portfoy degeri:** 94,754 TL
+- **Gunluk degisim:** %-0.01
+- **Toplam getiri:** %-5.25
 - **Nakit:** 27 TL
 
 ## Bugunku islemler
@@ -17,28 +17,28 @@
 - **[AL] FROTO** 345 lot @ 79.75 TL — ilk 3'e girdi — Kalite cok guclu (ROE %22, z+1.7), Deger cok guclu (F/K 7.0, z+1.6); skor +0.48
 
 ## Mevcut pozisyonlar — neden elimizde?
-### TUPRS — 94 lot, K/Z %+9.9 (skor +0.72)
-- Momentum cok guclu (%52, z+2.7)
+### TUPRS — 94 lot, K/Z %+9.4 (skor +0.71)
+- Momentum cok guclu (%53, z+2.6)
 - Trend cok guclu (200g'ye gore %57, z+2.3)
 
-### THYAO — 109 lot, K/Z %+0.5 (skor +0.72)
+### THYAO — 109 lot, K/Z %+0.2 (skor +0.72)
 - Deger cok guclu (F/K 3.0, z+2.6)
 - RSI guclu (RSI 37, z+0.6)
 
-### FROTO — 345 lot, K/Z %-0.7 (skor +0.28)
-- Kalite cok guclu (ROE %22, z+2.0)
+### FROTO — 345 lot, K/Z %-0.9 (skor +0.27)
+- Kalite cok guclu (ROE %22, z+2.1)
 - DusukVol cok guclu (volatilite %25, z+1.4)
 
 ## Piyasa fotografi
-- TUPRS: skor +0.72
 - THYAO: skor +0.72
-- FROTO: skor +0.28
+- TUPRS: skor +0.71
+- FROTO: skor +0.27
 - BIMAS: skor +0.04
-- TCELL: skor -0.13
+- ASELS: skor -0.15
+- TCELL: skor -0.18
 - TOASO: skor -0.18
-- ASELS: skor -0.19
-- SISE: skor -0.32
-- EREGL: skor -0.46
-- MGROS: skor -0.47
+- SISE: skor -0.33
+- EREGL: skor -0.39
+- MGROS: skor -0.51
 
-_Uretim: 2026-08-17 14:32 UTC · paper-trading, yatirim tavsiyesi degildir._
+_Uretim: 2026-08-17 15:29 UTC · paper-trading, yatirim tavsiyesi degildir._
