@@ -1110,5 +1110,21 @@
     "lot": 348,
     "fiyat": 78.85,
     "sebep": "ilk 3'e girdi — Kalite cok guclu (ROE %87, z+2.4), DusukVol cok guclu (volatilite %27, z+1.1); skor +0.11"
+  },
+  {
+    "zaman": "2026-08-17 08:52",
+    "kod": "FROTO",
+    "aksiyon": "SAT",
+    "lot": 348,
+    "fiyat": 78.9,
+    "sebep": "ilk 3 disina dustu; gerceklesen K/Z %+0.1"
+  },
+  {
+    "zaman": "2026-08-17 08:52",
+    "kod": "EREGL",
+    "aksiyon": "AL",
+    "lot": 727,
+    "fiyat": 37.74,
+    "sebep": "ilk 3'e girdi — RSI cok guclu (RSI 28, z+1.1), Trend guclu (200g'ye gore %18, z+0.6); skor +0.09"
   }
 ]
