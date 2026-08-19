@@ -1,10 +1,10 @@
 # Bot Gun Sonu Raporu — 2026-08-19
 
 ## Ozet
-- **Portfoy degeri:** 96,811 TL
-- **Gunluk degisim:** %+1.77
-- **Toplam getiri:** %-3.19
-- **Nakit:** 69 TL
+- **Portfoy degeri:** 97,204 TL
+- **Gunluk degisim:** %+2.19
+- **Toplam getiri:** %-2.80
+- **Nakit:** 93 TL
 
 ## Bugunku islemler
 - **[SAT] THYAO** 109 lot @ 300.5 TL — ilk 3 disina dustu; gerceklesen K/Z %+0.0
@@ -17,19 +17,21 @@
 - **[AL] BIMAS** 74 lot @ 406.0 TL — ilk 3'e girdi — Trend guclu (200g'ye gore %19, z+0.5), Saglik ortalama (Borc/Ozk 1.02, z+0.4); skor +0.02
 - **[SAT] BIMAS** 74 lot @ 406.5 TL — ilk 3 disina dustu; gerceklesen K/Z %+0.1
 - **[AL] FROTO** 380 lot @ 79.05 TL — ilk 3'e girdi — Kalite cok guclu (ROE %34, z+2.5), DusukVol cok guclu (volatilite %25, z+1.4); skor +0.40
+- **[SAT] THYAO** 100 lot @ 301.0 TL — ilk 3 disina dustu; gerceklesen K/Z %+0.2
+- **[AL] BIMAS** 73 lot @ 412.0 TL — ilk 3'e girdi — Kalite guclu (ROE %22, z+0.8), Trend guclu (200g'ye gore %21, z+0.5); skor +0.15
 
 ## Mevcut pozisyonlar — neden elimizde?
-### TUPRS — 94 lot, K/Z %+15.2 (skor +0.74)
-- Momentum cok guclu (%66, z+2.7)
-- Trend cok guclu (200g'ye gore %64, z+2.3)
+### TUPRS — 94 lot, K/Z %+15.9 (skor +0.74)
+- Momentum cok guclu (%67, z+2.7)
+- Trend cok guclu (200g'ye gore %65, z+2.4)
 
-### THYAO — 100 lot, K/Z %+0.1 (skor +0.66)
-- Deger cok guclu (F/K 3.0, z+2.6)
-- DusukVol guclu (volatilite %30, z+0.8)
-
-### FROTO — 380 lot, K/Z %+0.4 (skor +0.26)
+### FROTO — 380 lot, K/Z %+0.9 (skor +0.26)
 - Kalite cok guclu (ROE %22, z+2.0)
-- DusukVol cok guclu (volatilite %25, z+1.5)
+- DusukVol cok guclu (volatilite %25, z+1.4)
+
+### BIMAS — 73 lot, K/Z %+0.0 (skor +0.11)
+- Trend guclu (200g'ye gore %21, z+0.5)
+- DusukVol ortalama (volatilite %33, z+0.4)
 
 ## Piyasa fotografi
 - TUPRS: skor +0.74
@@ -38,9 +40,9 @@
 - BIMAS: skor +0.11
 - TCELL: skor -0.12
 - TOASO: skor -0.16
-- ASELS: skor -0.20
+- ASELS: skor -0.19
 - SISE: skor -0.36
 - MGROS: skor -0.43
-- EREGL: skor -0.50
+- EREGL: skor -0.51
 
-_Uretim: 2026-08-19 11:30 UTC · paper-trading, yatirim tavsiyesi degildir._
+_Uretim: 2026-08-19 12:54 UTC · paper-trading, yatirim tavsiyesi degildir._
