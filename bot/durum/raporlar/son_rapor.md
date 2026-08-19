@@ -1,10 +1,10 @@
 # Bot Gun Sonu Raporu — 2026-08-19
 
 ## Ozet
-- **Portfoy degeri:** 97,724 TL
-- **Gunluk degisim:** %+2.73
-- **Toplam getiri:** %-2.28
-- **Nakit:** 122 TL
+- **Portfoy degeri:** 97,525 TL
+- **Gunluk degisim:** %+2.52
+- **Toplam getiri:** %-2.47
+- **Nakit:** 51 TL
 
 ## Bugunku islemler
 - **[SAT] THYAO** 109 lot @ 300.5 TL — ilk 3 disina dustu; gerceklesen K/Z %+0.0
@@ -21,30 +21,32 @@
 - **[AL] BIMAS** 73 lot @ 412.0 TL — ilk 3'e girdi — Kalite guclu (ROE %22, z+0.8), Trend guclu (200g'ye gore %21, z+0.5); skor +0.15
 - **[SAT] FROTO** 380 lot @ 79.55 TL — ilk 3 disina dustu; gerceklesen K/Z %+0.6
 - **[AL] THYAO** 100 lot @ 302.0 TL — ilk 3'e girdi — Deger cok guclu (F/K 3.0, z+2.3), DusukVol guclu (volatilite %30, z+0.8); skor +0.59
+- **[SAT] BIMAS** 73 lot @ 414.0 TL — ilk 3 disina dustu; gerceklesen K/Z %+0.5
+- **[AL] FROTO** 382 lot @ 79.3 TL — ilk 3'e girdi — Kalite cok guclu (ROE %22, z+1.9), DusukVol cok guclu (volatilite %25, z+1.5); skor +0.27
 
 ## Mevcut pozisyonlar — neden elimizde?
-### TUPRS — 94 lot, K/Z %+17.0 (skor +0.68)
-- Momentum cok guclu (%68, z+2.7)
+### TUPRS — 94 lot, K/Z %+17.1 (skor +0.71)
+- Momentum cok guclu (%67, z+2.7)
 - Trend cok guclu (200g'ye gore %66, z+2.4)
 
-### BIMAS — 73 lot, K/Z %+1.0 (skor +0.13)
-- Trend guclu (200g'ye gore %22, z+0.5)
-- Momentum ortalama (%10, z+0.3)
-
-### THYAO — 100 lot, K/Z %-0.1 (skor +0.66)
+### THYAO — 100 lot, K/Z %-0.4 (skor +0.64)
 - Deger cok guclu (F/K 3.0, z+2.6)
 - DusukVol guclu (volatilite %30, z+0.8)
 
-## Piyasa fotografi
-- TUPRS: skor +0.68
-- THYAO: skor +0.66
-- FROTO: skor +0.27
-- BIMAS: skor +0.13
-- TCELL: skor -0.11
-- ASELS: skor -0.17
-- TOASO: skor -0.18
-- SISE: skor -0.35
-- MGROS: skor -0.42
-- EREGL: skor -0.50
+### FROTO — 382 lot, K/Z %+0.0 (skor +0.30)
+- Kalite cok guclu (ROE %22, z+2.0)
+- DusukVol cok guclu (volatilite %25, z+1.5)
 
-_Uretim: 2026-08-19 13:53 UTC · paper-trading, yatirim tavsiyesi degildir._
+## Piyasa fotografi
+- TUPRS: skor +0.71
+- THYAO: skor +0.64
+- FROTO: skor +0.30
+- BIMAS: skor +0.10
+- TCELL: skor -0.11
+- ASELS: skor -0.16
+- TOASO: skor -0.18
+- SISE: skor -0.36
+- MGROS: skor -0.41
+- EREGL: skor -0.52
+
+_Uretim: 2026-08-19 14:38 UTC · paper-trading, yatirim tavsiyesi degildir._
