@@ -1,17 +1,17 @@
 {
-  "nakit": 36.39052963256836,
+  "nakit": 26.588184356689453,
   "pozisyonlar": {
     "TUPRS": {
       "lot": 94,
       "maliyet": 337.0
     },
-    "SISE": {
-      "lot": 781,
-      "maliyet": 38.38
+    "THYAO": {
+      "lot": 100,
+      "maliyet": 300.5
     },
-    "FROTO": {
-      "lot": 378,
-      "maliyet": 79.25
+    "BIMAS": {
+      "lot": 74,
+      "maliyet": 406.0
     }
   }
 }
