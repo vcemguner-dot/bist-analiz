@@ -1,5 +1,5 @@
 {
-  "nakit": 64.18644332885742,
+  "nakit": 115.78762435913086,
   "pozisyonlar": {
     "THYAO": {
       "lot": 101,
@@ -9,9 +9,9 @@
       "lot": 77,
       "maliyet": 398.5
     },
-    "FROTO": {
-      "lot": 387,
-      "maliyet": 79.35
+    "BIMAS": {
+      "lot": 75,
+      "maliyet": 408.5
     }
   }
 }

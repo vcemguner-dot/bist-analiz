@@ -1,10 +1,10 @@
 # Bot Gun Sonu Raporu — 2026-08-20
 
 ## Ozet
-- **Portfoy degeri:** 91,614 TL
-- **Gunluk degisim:** %-0.60
-- **Toplam getiri:** %-8.39
-- **Nakit:** 64 TL
+- **Portfoy degeri:** 91,672 TL
+- **Gunluk degisim:** %-0.54
+- **Toplam getiri:** %-8.33
+- **Nakit:** 116 TL
 
 ## Bugunku islemler
 - **[SAT] BIMAS** 74 lot @ 415.25 TL — ilk 3 disina dustu; gerceklesen K/Z %-0.3
@@ -15,30 +15,32 @@
 - **[AL] BIMAS** 75 lot @ 409.0 TL — ilk 3'e girdi — DusukVol guclu (volatilite %32, z+0.5), Trend guclu (200g'ye gore %20, z+0.5); skor +0.00
 - **[SAT] BIMAS** 75 lot @ 409.75 TL — ilk 3 disina dustu; gerceklesen K/Z %+0.2
 - **[AL] FROTO** 387 lot @ 79.35 TL — ilk 3'e girdi — Kalite cok guclu (ROE %22, z+1.9), DusukVol cok guclu (volatilite %24, z+1.4); skor +0.27
+- **[SAT] FROTO** 387 lot @ 79.3 TL — ilk 3 disina dustu; gerceklesen K/Z %-0.1
+- **[AL] BIMAS** 75 lot @ 408.5 TL — ilk 3'e girdi — Trend guclu (200g'ye gore %19, z+0.5), Saglik guclu (Borc/Ozk 0.99, z+0.4); skor +0.08
 
 ## Mevcut pozisyonlar — neden elimizde?
-### THYAO — 101 lot, K/Z %-0.7 (skor +0.64)
+### THYAO — 101 lot, K/Z %-0.2 (skor +0.66)
 - Deger cok guclu (F/K 3.0, z+2.6)
-- DusukVol guclu (volatilite %30, z+0.8)
+- DusukVol guclu (volatilite %28, z+0.9)
 
-### TUPRS — 77 lot, K/Z %-0.9 (skor +0.73)
+### TUPRS — 77 lot, K/Z %-0.8 (skor +0.71)
 - Momentum cok guclu (%67, z+2.7)
 - Trend cok guclu (200g'ye gore %66, z+2.4)
 
-### FROTO — 387 lot, K/Z %-0.0 (skor +0.30)
-- Kalite cok guclu (ROE %22, z+2.0)
-- DusukVol cok guclu (volatilite %24, z+1.5)
+### BIMAS — 75 lot, K/Z %-0.3 (skor +0.09)
+- Trend guclu (200g'ye gore %19, z+0.4)
+- Saglik ortalama (Borc/Ozk 1.02, z+0.3)
 
 ## Piyasa fotografi
-- TUPRS: skor +0.73
-- THYAO: skor +0.64
-- FROTO: skor +0.30
+- TUPRS: skor +0.71
+- THYAO: skor +0.66
+- FROTO: skor +0.29
 - BIMAS: skor +0.09
-- TCELL: skor -0.09
-- ASELS: skor -0.16
-- TOASO: skor -0.18
-- SISE: skor -0.37
+- TCELL: skor -0.11
+- ASELS: skor -0.17
+- TOASO: skor -0.19
+- SISE: skor -0.35
 - MGROS: skor -0.42
-- EREGL: skor -0.54
+- EREGL: skor -0.50
 
-_Uretim: 2026-08-20 10:35 UTC · paper-trading, yatirim tavsiyesi degildir._
+_Uretim: 2026-08-20 11:31 UTC · paper-trading, yatirim tavsiyesi degildir._
