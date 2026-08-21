@@ -1510,5 +1510,21 @@
     "lot": 73,
     "fiyat": 416.25,
     "sebep": "ilk 3'e girdi — Kalite guclu (ROE %16, z+0.9), Trend ortalama (200g'ye gore %21, z+0.4); skor +0.19"
+  },
+  {
+    "zaman": "2026-08-21 13:49",
+    "kod": "BIMAS",
+    "aksiyon": "SAT",
+    "lot": 73,
+    "fiyat": 416.75,
+    "sebep": "ilk 3 disina dustu; gerceklesen K/Z %+0.1"
+  },
+  {
+    "zaman": "2026-08-21 13:49",
+    "kod": "TCELL",
+    "aksiyon": "AL",
+    "lot": 294,
+    "fiyat": 104.5,
+    "sebep": "ilk 3'e girdi — Deger guclu (F/K 7.4, z+1.0), DusukVol guclu (volatilite %31, z+0.8); skor +0.21"
   }
 ]
