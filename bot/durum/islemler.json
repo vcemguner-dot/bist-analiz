@@ -1558,5 +1558,21 @@
     "lot": 102,
     "fiyat": 301.0,
     "sebep": "ilk 3'e girdi — Deger cok guclu (F/K 3.0, z+2.6), DusukVol cok guclu (volatilite %26, z+1.3); skor +0.69"
+  },
+  {
+    "zaman": "2026-08-24 09:02",
+    "kod": "THYAO",
+    "aksiyon": "SAT",
+    "lot": 102,
+    "fiyat": 302.75,
+    "sebep": "ilk 3 disina dustu; gerceklesen K/Z %+0.6"
+  },
+  {
+    "zaman": "2026-08-24 09:02",
+    "kod": "BIMAS",
+    "aksiyon": "AL",
+    "lot": 75,
+    "fiyat": 412.25,
+    "sebep": "ilk 3'e girdi — Trend guclu (200g'ye gore %20, z+0.4), Momentum ortalama (%11, z+0.2); skor +0.10"
   }
 ]
