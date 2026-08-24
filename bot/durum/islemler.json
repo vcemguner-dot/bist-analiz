@@ -1574,5 +1574,21 @@
     "lot": 75,
     "fiyat": 412.25,
     "sebep": "ilk 3'e girdi — Trend guclu (200g'ye gore %20, z+0.4), Momentum ortalama (%11, z+0.2); skor +0.10"
+  },
+  {
+    "zaman": "2026-08-24 10:04",
+    "kod": "FROTO",
+    "aksiyon": "SAT",
+    "lot": 386,
+    "fiyat": 80.85,
+    "sebep": "ilk 3 disina dustu; gerceklesen K/Z %+1.1"
+  },
+  {
+    "zaman": "2026-08-24 10:04",
+    "kod": "THYAO",
+    "aksiyon": "AL",
+    "lot": 103,
+    "fiyat": 302.5,
+    "sebep": "ilk 3'e girdi — DusukVol cok guclu (volatilite %25, z+1.3), RSI cok guclu (RSI 24, z+1.3); skor +0.09"
   }
 ]
