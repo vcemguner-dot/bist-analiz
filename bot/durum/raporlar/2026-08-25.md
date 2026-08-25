@@ -1,9 +1,9 @@
 # Bot Gun Sonu Raporu — 2026-08-25
 
 ## Ozet
-- **Portfoy degeri:** 92,068 TL
-- **Gunluk degisim:** %-0.36
-- **Toplam getiri:** %-7.93
+- **Portfoy degeri:** 91,926 TL
+- **Gunluk degisim:** %-0.51
+- **Toplam getiri:** %-8.07
 - **Nakit:** 320 TL
 
 ## Bugunku islemler
@@ -27,28 +27,28 @@
 - **[AL] BIMAS** 73 lot @ 416.25 TL — ilk 3'e girdi — Kalite guclu (ROE %11, z+0.6), Trend guclu (200g'ye gore %21, z+0.5); skor +0.18
 
 ## Mevcut pozisyonlar — neden elimizde?
-### THYAO — 102 lot, K/Z %+0.3 (skor +0.72)
+### THYAO — 102 lot, K/Z %+0.5 (skor +0.72)
 - Deger cok guclu (F/K 3.0, z+2.6)
-- DusukVol cok guclu (volatilite %25, z+1.3)
+- DusukVol cok guclu (volatilite %25, z+1.2)
 
-### TUPRS — 81 lot, K/Z %-0.3 (skor +0.64)
-- Momentum cok guclu (%60, z+2.6)
-- Trend cok guclu (200g'ye gore %57, z+2.2)
+### TUPRS — 81 lot, K/Z %-1.2 (skor +0.63)
+- Momentum cok guclu (%58, z+2.6)
+- Trend cok guclu (200g'ye gore %55, z+2.2)
 
-### BIMAS — 73 lot, K/Z %+0.0 (skor +0.11)
-- Trend guclu (200g'ye gore %21, z+0.6)
-- Momentum ortalama (%12, z+0.4)
+### BIMAS — 73 lot, K/Z %+0.3 (skor +0.12)
+- Trend guclu (200g'ye gore %22, z+0.6)
+- Momentum guclu (%13, z+0.4)
 
 ## Piyasa fotografi
 - THYAO: skor +0.72
-- TUPRS: skor +0.64
+- TUPRS: skor +0.63
 - FROTO: skor +0.27
-- BIMAS: skor +0.11
-- ASELS: skor -0.07
+- BIMAS: skor +0.12
+- ASELS: skor -0.08
 - TCELL: skor -0.10
-- TOASO: skor -0.20
+- TOASO: skor -0.19
 - SISE: skor -0.37
 - MGROS: skor -0.50
-- EREGL: skor -0.51
+- EREGL: skor -0.50
 
-_Uretim: 2026-08-25 14:47 UTC · paper-trading, yatirim tavsiyesi degildir._
+_Uretim: 2026-08-25 15:46 UTC · paper-trading, yatirim tavsiyesi degildir._
