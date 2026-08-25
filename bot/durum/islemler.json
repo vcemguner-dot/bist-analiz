@@ -1702,5 +1702,37 @@
     "lot": 296,
     "fiyat": 103.4,
     "sebep": "ilk 3'e girdi — DusukVol guclu (volatilite %30, z+0.9), RSI guclu (RSI 35, z+0.7); skor +0.02"
+  },
+  {
+    "zaman": "2026-08-25 12:50",
+    "kod": "TUPRS",
+    "aksiyon": "SAT",
+    "lot": 77,
+    "fiyat": 398.5,
+    "sebep": "ilk 3 disina dustu; gerceklesen K/Z %+0.0"
+  },
+  {
+    "zaman": "2026-08-25 12:50",
+    "kod": "TCELL",
+    "aksiyon": "SAT",
+    "lot": 296,
+    "fiyat": 102.7,
+    "sebep": "ilk 3 disina dustu; gerceklesen K/Z %-0.7"
+  },
+  {
+    "zaman": "2026-08-25 12:50",
+    "kod": "THYAO",
+    "aksiyon": "AL",
+    "lot": 102,
+    "fiyat": 301.0,
+    "sebep": "ilk 3'e girdi — Deger cok guclu (F/K 3.0, z+2.4), DusukVol cok guclu (volatilite %25, z+1.3); skor +0.83"
+  },
+  {
+    "zaman": "2026-08-25 12:50",
+    "kod": "ASELS",
+    "aksiyon": "AL",
+    "lot": 75,
+    "fiyat": 406.75,
+    "sebep": "ilk 3'e girdi — Trend cok guclu (200g'ye gore %24, z+1.5), Saglik cok guclu (Borc/Ozk 0.71, z+1.1); skor +0.19"
   }
 ]
