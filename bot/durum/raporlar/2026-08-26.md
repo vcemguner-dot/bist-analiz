@@ -1,9 +1,9 @@
 # Bot Gun Sonu Raporu — 2026-08-26
 
 ## Ozet
-- **Portfoy degeri:** 93,068 TL
-- **Gunluk degisim:** %+1.24
-- **Toplam getiri:** %-6.93
+- **Portfoy degeri:** 93,256 TL
+- **Gunluk degisim:** %+1.45
+- **Toplam getiri:** %-6.74
 - **Nakit:** 154 TL
 
 ## Bugunku islemler
@@ -17,15 +17,15 @@
 - **[AL] THYAO** 101 lot @ 309.5 TL — ilk 3'e girdi — Deger cok guclu (F/K 3.1, z+2.6), DusukVol cok guclu (volatilite %24, z+1.4); skor +0.76
 
 ## Mevcut pozisyonlar — neden elimizde?
-### TUPRS — 81 lot, K/Z %-0.5 (skor +0.65)
-- Momentum cok guclu (%50, z+2.6)
-- Trend cok guclu (200g'ye gore %55, z+2.2)
+### TUPRS — 81 lot, K/Z %+0.1 (skor +0.65)
+- Momentum cok guclu (%51, z+2.6)
+- Trend cok guclu (200g'ye gore %56, z+2.2)
 
 ### FROTO — 389 lot, K/Z %-0.0 (skor +0.22)
 - Kalite cok guclu (ROE %22, z+2.0)
 - DusukVol cok guclu (volatilite %26, z+1.1)
 
-### THYAO — 101 lot, K/Z %+0.0 (skor +0.76)
+### THYAO — 101 lot, K/Z %+0.1 (skor +0.76)
 - Deger cok guclu (F/K 3.1, z+2.6)
 - DusukVol cok guclu (volatilite %24, z+1.4)
 
@@ -41,4 +41,4 @@
 - MGROS: skor -0.47
 - EREGL: skor -0.48
 
-_Uretim: 2026-08-26 09:45 UTC · paper-trading, yatirim tavsiyesi degildir._
+_Uretim: 2026-08-26 10:38 UTC · paper-trading, yatirim tavsiyesi degildir._
