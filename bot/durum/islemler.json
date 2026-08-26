@@ -1862,5 +1862,21 @@
     "lot": 112,
     "fiyat": 278.75,
     "sebep": "ilk 3'e girdi — Kalite cok guclu (ROE %41, z+1.1), Deger guclu (F/K 6.4, z+0.6); skor +0.11"
+  },
+  {
+    "zaman": "2026-08-26 12:56",
+    "kod": "TOASO",
+    "aksiyon": "SAT",
+    "lot": 112,
+    "fiyat": 279.0,
+    "sebep": "ilk 3 disina dustu; gerceklesen K/Z %+0.1"
+  },
+  {
+    "zaman": "2026-08-26 12:56",
+    "kod": "BIMAS",
+    "aksiyon": "AL",
+    "lot": 74,
+    "fiyat": 420.75,
+    "sebep": "ilk 3'e girdi — Kalite guclu (ROE %16, z+0.8), Trend guclu (200g'ye gore %22, z+0.6); skor +0.27"
   }
 ]
