@@ -1,5 +1,5 @@
 {
-  "nakit": 151.1465187072754,
+  "nakit": 185.6465187072754,
   "pozisyonlar": {
     "TUPRS": {
       "lot": 81,
@@ -9,9 +9,9 @@
       "lot": 383,
       "maliyet": 83.95
     },
-    "MGROS": {
-      "lot": 56,
-      "maliyet": 540.5
+    "THYAO": {
+      "lot": 102,
+      "maliyet": 300.25
     }
   }
 }
