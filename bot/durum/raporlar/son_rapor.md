@@ -1,24 +1,24 @@
 # Bot Gun Sonu Raporu — 2026-09-23
 
 ## Ozet
-- **Portfoy degeri:** 94,822 TL
-- **Gunluk degisim:** %+1.22
-- **Toplam getiri:** %-5.18
+- **Portfoy degeri:** 94,593 TL
+- **Gunluk degisim:** %+0.98
+- **Toplam getiri:** %-5.41
 - **Nakit:** 99 TL
 
 ## Bugunku islemler
 - Bugun islem yapilmadi; pozisyonlar korundu.
 
 ## Mevcut pozisyonlar — neden elimizde?
-### TUPRS — 81 lot, K/Z %+8.9 (skor +0.81)
+### TUPRS — 81 lot, K/Z %+8.7 (skor +0.81)
 - Momentum cok guclu (%81, z+2.6)
 - Trend cok guclu (200g'ye gore %56, z+2.4)
 
-### THYAO — 103 lot, K/Z %+0.6 (skor +0.57)
-- Deger cok guclu (F/K 3.0, z+2.6)
-- DusukVol guclu (volatilite %32, z+0.9)
+### THYAO — 103 lot, K/Z %+0.2 (skor +0.57)
+- Deger cok guclu (F/K 2.9, z+2.6)
+- DusukVol guclu (volatilite %31, z+0.9)
 
-### FROTO — 388 lot, K/Z %-0.8 (skor +0.28)
+### FROTO — 388 lot, K/Z %-0.9 (skor +0.28)
 - Kalite cok guclu (ROE %22, z+2.0)
 - DusukVol guclu (volatilite %33, z+0.7)
 
@@ -28,10 +28,10 @@
 - FROTO: skor +0.28
 - BIMAS: skor +0.20
 - ASELS: skor +0.10
-- TOASO: skor -0.21
+- TOASO: skor -0.20
 - TCELL: skor -0.23
-- MGROS: skor -0.40
+- MGROS: skor -0.41
 - EREGL: skor -0.53
 - SISE: skor -0.58
 
-_Uretim: 2026-09-23 12:37 UTC · paper-trading, yatirim tavsiyesi degildir._
+_Uretim: 2026-09-23 17:47 UTC · paper-trading, yatirim tavsiyesi degildir._
