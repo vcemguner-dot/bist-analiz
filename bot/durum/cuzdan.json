@@ -1,17 +1,17 @@
 {
-  "nakit": 64.94650650024414,
+  "nakit": 221.39709854125977,
   "pozisyonlar": {
     "TUPRS": {
       "lot": 81,
       "maliyet": 378.25
     },
-    "THYAO": {
-      "lot": 103,
-      "maliyet": 298.0
+    "BIMAS": {
+      "lot": 70,
+      "maliyet": 429.5
     },
-    "FROTO": {
-      "lot": 388,
-      "maliyet": 77.4
+    "ASELS": {
+      "lot": 80,
+      "maliyet": 373.25
     }
   }
 }
