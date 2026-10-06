@@ -2294,5 +2294,21 @@
     "lot": 68,
     "fiyat": 425.75,
     "sebep": "ilk 3'e girdi — DusukVol cok guclu (volatilite %30, z+1.2), Momentum guclu (%20, z+0.9); skor +0.33"
+  },
+  {
+    "zaman": "2026-10-06 14:02",
+    "kod": "THYAO",
+    "aksiyon": "SAT",
+    "lot": 102,
+    "fiyat": 292.25,
+    "sebep": "ilk 3 disina dustu; gerceklesen K/Z %+0.5"
+  },
+  {
+    "zaman": "2026-10-06 14:02",
+    "kod": "TOASO",
+    "aksiyon": "AL",
+    "lot": 112,
+    "fiyat": 269.5,
+    "sebep": "ilk 3'e girdi — Kalite cok guclu (ROE %41, z+1.9), RSI guclu (RSI 49, z+0.8); skor +0.28"
   }
 ]
