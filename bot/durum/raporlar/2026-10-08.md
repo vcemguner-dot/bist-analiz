@@ -1,37 +1,38 @@
 # Bot Gun Sonu Raporu — 2026-10-08
 
 ## Ozet
-- **Portfoy degeri:** 88,788 TL
-- **Gunluk degisim:** %+1.42
-- **Toplam getiri:** %-11.21
-- **Nakit:** 202 TL
+- **Portfoy degeri:** 88,804 TL
+- **Gunluk degisim:** %+1.44
+- **Toplam getiri:** %-11.20
+- **Nakit:** 120 TL
 
 ## Bugunku islemler
-- Bugun islem yapilmadi; pozisyonlar korundu.
+- **[SAT] THYAO** 104 lot @ 284.25 TL — ilk 3 disina dustu; gerceklesen K/Z %-2.2
+- **[AL] ASELS** 85 lot @ 348.75 TL — ilk 3'e girdi — RSI ortalama (RSI 42, z+0.4), Momentum ortalama (%-1, z+0.3); skor -0.08
 
 ## Mevcut pozisyonlar — neden elimizde?
-### TUPRS — 81 lot, K/Z %+4.2 (skor +0.89)
-- Momentum cok guclu (%40, z+2.6)
-- Trend cok guclu (200g'ye gore %46, z+2.5)
+### TUPRS — 81 lot, K/Z %+3.7 (skor +1.06)
+- Momentum cok guclu (%39, z+2.6)
+- Trend cok guclu (200g'ye gore %45, z+2.5)
 
-### BIMAS — 68 lot, K/Z %-6.5 (skor +0.49)
+### BIMAS — 68 lot, K/Z %-5.8 (skor +0.38)
 - DusukVol cok guclu (volatilite %27, z+1.4)
-- RSI guclu (RSI 37, z+1.0)
+- RSI guclu (RSI 39, z+0.8)
 
-### THYAO — 104 lot, K/Z %-2.1 (skor +0.48)
-- Deger cok guclu (F/K 2.8, z+2.6)
-- DusukVol guclu (volatilite %34, z+0.6)
+### ASELS — 85 lot, K/Z %+0.0 (skor -0.08)
+- RSI ortalama (RSI 42, z+0.4)
+- Momentum ortalama (%-1, z+0.3)
 
 ## Piyasa fotografi
-- TUPRS: skor +0.89
-- BIMAS: skor +0.49
-- THYAO: skor +0.48
-- FROTO: skor +0.24
-- ASELS: skor -0.13
+- TUPRS: skor +1.06
+- BIMAS: skor +0.38
+- ASELS: skor -0.08
+- THYAO: skor -0.13
+- EREGL: skor -0.15
+- FROTO: skor -0.16
 - TOASO: skor -0.17
-- TCELL: skor -0.25
-- MGROS: skor -0.34
-- EREGL: skor -0.60
-- SISE: skor -0.61
+- TCELL: skor -0.18
+- MGROS: skor -0.24
+- SISE: skor -0.33
 
-_Uretim: 2026-10-08 14:32 UTC · paper-trading, yatirim tavsiyesi degildir._
+_Uretim: 2026-10-08 20:49 UTC · paper-trading, yatirim tavsiyesi degildir._
