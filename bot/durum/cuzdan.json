@@ -1,5 +1,5 @@
 {
-  "nakit": 120.34473037719727,
+  "nakit": 257.84473037719727,
   "pozisyonlar": {
     "TUPRS": {
       "lot": 81,
@@ -9,9 +9,9 @@
       "lot": 68,
       "maliyet": 425.75
     },
-    "ASELS": {
-      "lot": 85,
-      "maliyet": 348.75
+    "THYAO": {
+      "lot": 103,
+      "maliyet": 287.5
     }
   }
 }
