@@ -2486,5 +2486,21 @@
     "lot": 379,
     "fiyat": 66.95,
     "sebep": "ilk 3'e girdi — Kalite cok guclu (ROE %67, z+2.5), Deger cok guclu (F/K 3.3, z+1.5); skor +0.61"
+  },
+  {
+    "zaman": "2026-10-23 17:50",
+    "kod": "FROTO",
+    "aksiyon": "SAT",
+    "lot": 379,
+    "fiyat": 65.05,
+    "sebep": "ilk 3 disina dustu; gerceklesen K/Z %-2.8"
+  },
+  {
+    "zaman": "2026-10-23 17:50",
+    "kod": "TCELL",
+    "aksiyon": "AL",
+    "lot": 273,
+    "fiyat": 90.1,
+    "sebep": "ilk 3'e girdi — DusukVol cok guclu (volatilite %30, z+1.1), Saglik guclu (Borc/Ozk 0.84, z+0.5); skor +0.10"
   }
 ]
