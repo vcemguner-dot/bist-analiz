@@ -2518,5 +2518,21 @@
     "lot": 66,
     "fiyat": 370.0,
     "sebep": "ilk 3'e girdi — Trend guclu (200g'ye gore %-0, z+0.7), Momentum guclu (%-2, z+0.6); skor +0.21"
+  },
+  {
+    "zaman": "2026-10-26 19:55",
+    "kod": "BIMAS",
+    "aksiyon": "SAT",
+    "lot": 66,
+    "fiyat": 374.5,
+    "sebep": "ilk 3 disina dustu; gerceklesen K/Z %+1.2"
+  },
+  {
+    "zaman": "2026-10-26 19:55",
+    "kod": "TOASO",
+    "aksiyon": "AL",
+    "lot": 113,
+    "fiyat": 219.3,
+    "sebep": "ilk 3'e girdi — Kalite cok guclu (ROE %41, z+2.2), RSI cok guclu (RSI 14, z+1.4); skor +0.38"
   }
 ]
