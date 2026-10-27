@@ -2550,5 +2550,21 @@
     "lot": 61,
     "fiyat": 427.5,
     "sebep": "ilk 3'e girdi — Kalite cok guclu (ROE %25, z+2.3), RSI cok guclu (RSI 17, z+1.5); skor +0.12"
+  },
+  {
+    "zaman": "2026-10-27 19:18",
+    "kod": "MGROS",
+    "aksiyon": "SAT",
+    "lot": 61,
+    "fiyat": 423.75,
+    "sebep": "ilk 3 disina dustu; gerceklesen K/Z %-0.9"
+  },
+  {
+    "zaman": "2026-10-27 19:18",
+    "kod": "FROTO",
+    "aksiyon": "AL",
+    "lot": 371,
+    "fiyat": 69.9,
+    "sebep": "ilk 3'e girdi — Kalite cok guclu (ROE %67, z+2.6), Deger cok guclu (F/K 3.5, z+1.2); skor +0.56"
   }
 ]
