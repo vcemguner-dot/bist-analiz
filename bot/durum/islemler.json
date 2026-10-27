@@ -2534,5 +2534,21 @@
     "lot": 113,
     "fiyat": 219.3,
     "sebep": "ilk 3'e girdi — Kalite cok guclu (ROE %41, z+2.2), RSI cok guclu (RSI 14, z+1.4); skor +0.38"
+  },
+  {
+    "zaman": "2026-10-27 13:05",
+    "kod": "TOASO",
+    "aksiyon": "SAT",
+    "lot": 113,
+    "fiyat": 229.9,
+    "sebep": "ilk 3 disina dustu; gerceklesen K/Z %+4.8"
+  },
+  {
+    "zaman": "2026-10-27 13:05",
+    "kod": "MGROS",
+    "aksiyon": "AL",
+    "lot": 61,
+    "fiyat": 427.5,
+    "sebep": "ilk 3'e girdi — Kalite cok guclu (ROE %25, z+2.3), RSI cok guclu (RSI 17, z+1.5); skor +0.12"
   }
 ]
