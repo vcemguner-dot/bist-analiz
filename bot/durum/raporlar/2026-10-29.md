@@ -34,4 +34,4 @@
 - MGROS: skor -0.51
 - EREGL: skor -0.76
 
-_Uretim: 2026-10-29 13:59 UTC · paper-trading, yatirim tavsiyesi degildir._
+_Uretim: 2026-10-29 19:31 UTC · paper-trading, yatirim tavsiyesi degildir._
