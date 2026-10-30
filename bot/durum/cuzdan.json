@@ -1,5 +1,5 @@
 {
-  "nakit": 75.39521408081055,
+  "nakit": 52.9963493347168,
   "pozisyonlar": {
     "TUPRS": {
       "lot": 81,
@@ -9,9 +9,9 @@
       "lot": 103,
       "maliyet": 287.5
     },
-    "BIMAS": {
-      "lot": 70,
-      "maliyet": 355.0
+    "FROTO": {
+      "lot": 372,
+      "maliyet": 65.45
     }
   }
 }

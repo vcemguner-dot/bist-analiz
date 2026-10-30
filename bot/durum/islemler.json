@@ -2582,5 +2582,21 @@
     "lot": 70,
     "fiyat": 355.0,
     "sebep": "ilk 3'e girdi — Kalite guclu (ROE %16, z+0.9), Momentum guclu (%-7, z+0.6); skor +0.32"
+  },
+  {
+    "zaman": "2026-10-30 19:04",
+    "kod": "BIMAS",
+    "aksiyon": "SAT",
+    "lot": 70,
+    "fiyat": 347.5,
+    "sebep": "ilk 3 disina dustu; gerceklesen K/Z %-2.1"
+  },
+  {
+    "zaman": "2026-10-30 19:04",
+    "kod": "FROTO",
+    "aksiyon": "AL",
+    "lot": 372,
+    "fiyat": 65.45,
+    "sebep": "ilk 3'e girdi — Kalite cok guclu (ROE %22, z+1.8), Deger guclu (F/K 5.7, z+0.5); skor +0.26"
   }
 ]
