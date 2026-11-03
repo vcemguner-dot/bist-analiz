@@ -2614,5 +2614,21 @@
     "lot": 68,
     "fiyat": 359.0,
     "sebep": "ilk 3'e girdi — Momentum guclu (%-6, z+0.7), Trend guclu (200g'ye gore %-3, z+0.6); skor +0.29"
+  },
+  {
+    "zaman": "2026-11-03 20:50",
+    "kod": "BIMAS",
+    "aksiyon": "SAT",
+    "lot": 68,
+    "fiyat": 359.5,
+    "sebep": "ilk 3 disina dustu; gerceklesen K/Z %+0.1"
+  },
+  {
+    "zaman": "2026-11-03 20:50",
+    "kod": "TCELL",
+    "aksiyon": "AL",
+    "lot": 264,
+    "fiyat": 93.8,
+    "sebep": "ilk 3'e girdi — DusukVol cok guclu (volatilite %24, z+1.5), Saglik guclu (Borc/Ozk 0.84, z+0.5); skor +0.33"
   }
 ]
