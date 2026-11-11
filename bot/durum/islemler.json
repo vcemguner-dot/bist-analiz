@@ -2662,5 +2662,21 @@
     "lot": 356,
     "fiyat": 75.9,
     "sebep": "ilk 3'e girdi — Kalite cok guclu (ROE %22, z+2.0), Deger guclu (F/K 6.3, z+0.6); skor +0.41"
+  },
+  {
+    "zaman": "2026-11-11 14:57",
+    "kod": "FROTO",
+    "aksiyon": "SAT",
+    "lot": 356,
+    "fiyat": 75.9,
+    "sebep": "ilk 3 disina dustu; gerceklesen K/Z %+0.0"
+  },
+  {
+    "zaman": "2026-11-11 14:57",
+    "kod": "TUPRS",
+    "aksiyon": "AL",
+    "lot": 77,
+    "fiyat": 349.5,
+    "sebep": "ilk 3'e girdi — Trend cok guclu (200g'ye gore %21, z+2.1), Saglik cok guclu (Borc/Ozk 0.60, z+1.1); skor +0.40"
   }
 ]
